@@ -332,7 +332,6 @@ padding: 0 50px;
   }
 
   .section-hero__content {
-    max-width: 100%;
     min-height: 200px;
     padding: 30px 15px;
   }
@@ -413,7 +412,7 @@ padding: 0 50px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
   .section-about__item {
     flex-direction: column;
     margin-bottom: 20px;
@@ -463,7 +462,7 @@ padding: 0 50px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
   .section-serv__items {
     flex-direction: column;
     flex-wrap: nowrap;
@@ -535,7 +534,7 @@ padding: 0 50px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
   .section-price__items {
     padding: 20px;
   }
@@ -596,7 +595,7 @@ padding: 0 50px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
   .section-reviews__items {
     flex-direction: column;
     flex-wrap: nowrap;
@@ -604,7 +603,6 @@ padding: 0 50px;
 
   .section-reviews__item, .section-reviews__item:nth-last-child(2) {
     width: 100%;
-    padding: 16px;
     margin-bottom: 20px;
   }
 
@@ -667,14 +665,15 @@ padding: 0 50px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
   .section-contacts__items {
     flex-direction: column;
     justify-content: center;
   }
 
   .section-contacts__item {
-    width: 100%;
+    width: 70%;
+    margin: 0 auto;
   }
 
   .section-contacts__left {
@@ -682,16 +681,12 @@ padding: 0 50px;
   }
 
   .section-contacts__right {
-    justify-content: center;
+    justify-content: space-around;
   }
 
   .contacts__social {
     width: 50px;
     height: 50px;
-  }
-
-  .contacts__social:not(:last-child) {
-    margin-right: 25px;
   }
 
   .contacts__number {
@@ -725,7 +720,7 @@ padding: 0 50px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 450px) {
   .footer__container {
     height: 40px;
   }
